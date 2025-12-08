@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "we need to paste bucket name which we created in the aws"
-    key ="jenkins/terraform.tfstate"
+    key    = "jenkins/terraform.tfstate"
     region = "ap-south-1"
   }
 }

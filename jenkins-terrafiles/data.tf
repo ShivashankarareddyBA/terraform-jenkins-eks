@@ -1,8 +1,8 @@
 # data suorece using to fecthing AMIS details 
 data "aws_ami" "ubuntu" {
-  
-  most_recent      = true
-  owners           = ["amazon"]
+
+  most_recent = true
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
@@ -21,5 +21,5 @@ data "aws_ami" "ubuntu" {
 }
 
 data "aws_availability_zones" "azs" {
-  
+
 }
