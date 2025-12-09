@@ -22,6 +22,9 @@ module "vpc" {
   public_subnet_tags = {
     Name : jenkins-Subnets
   }
+   redshift_route_table_tags = {
+     name ="jenkins-rt"
+   }
 }
 
 # SG
