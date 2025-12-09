@@ -12,6 +12,7 @@ echo "=== Installing Jenkins ==="
 
 # Install Java (required by Jenkins)
 sudo apt install -y fontconfig openjdk-17-jre
+# or we can also run sudo apt install openjdk-24-jdk -y
 
 # Add Jenkins repo
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
